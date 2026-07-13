@@ -15,7 +15,6 @@ X = df.iloc[:, :-1]
 y = df.iloc[:, -1]
 
 # splitting dataset into training and testing set
-
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state = 0)
 
 # Training Simple linear regression model on training set
